@@ -16,18 +16,18 @@ The algorithm implements the pseudocode found in "Artificial Intelligence: A Mod
 <!-- GETTING STARTED -->
 ## Getting Started
 
-The project's /docs folder contains the UML Class Diagram of this project.
+The project's **/docs** folder contains following UML Class Diagram.
 
 ![Backpropagation - UML Class Diagram](https://raw.githubusercontent.com/fabrizio-costabile/Backpropagation/main/docs/uml-class-diagram.png) 
 
 ### Prerequisites
 
-An IDE to import Java projects and run JUnit tests.
+An IDE to import Java (Maven) projects and run JUnit tests.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Download the source code and run the "SinusoidPredictionTest.java" JUnit test.
+Download the source code and run the **SinusoidPredictionTest.java** JUnit test.
 The unit test will proof the validity of the algorithm's implementation. 
 <br>
 <br>
@@ -37,7 +37,7 @@ Backpropagation backpropagation = new Backpropagation(SIZES_OF_LAYERS, new Sigmo
 backpropagation.learn(dataSet, 1, 0);
 double[] predictions = backpropagation.predict(inputs);
 ```
-A comprehensive usage can be found in the "SinusoidPredictionTest.java" JUnit test.
+A comprehensive usage can be found in the **SinusoidPredictionTest.java** JUnit test.
 
 <!-- CONTRIBUTING -->
 ## Contributing
