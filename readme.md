@@ -50,7 +50,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Backpropagation is licensed under the Apache License, Version 2.0. See <a href="https://github.com/fabrizio-costabile/backpropagation/blob/master/LICENSE">LICENSE</a> for the full license text.
+**Backpropagation** is licensed under the Apache License, Version 2.0. See <a href="https://github.com/fabrizio-costabile/backpropagation/blob/master/LICENSE">LICENSE</a> for the full license text.
 
 <!-- CONTACT -->
 ## Contact
