@@ -4,7 +4,7 @@ Implementation of the Backpropagation algorithm to train Feedforward Neural Netw
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-The algorithm implements the pseudocode found in "Artificial Intelligence: A Modern Approach (Third Edition)" by Stuart Russell and Peter Norvig (on page 734, Chapter 18).
+This project implements the algorithm defined by the pseudocode found in "Artificial Intelligence: A Modern Approach (Third Edition)" by Stuart Russell and Peter Norvig (on page 734, Chapter 18).
 <br>
 
 ### Built With
@@ -16,7 +16,7 @@ The algorithm implements the pseudocode found in "Artificial Intelligence: A Mod
 <!-- GETTING STARTED -->
 ## Getting Started
 
-The project's **/docs** folder contains following UML Class Diagram.
+UML class diagram of this project (except the unit test), located in the **/docs** folder.
 
 ![Backpropagation - UML Class Diagram](https://raw.githubusercontent.com/fabrizio-costabile/Backpropagation/main/docs/uml-class-diagram.png) 
 
@@ -28,7 +28,7 @@ An IDE to import Java (Maven) projects and run JUnit tests.
 ## Usage
 
 Download the source code and run the **SinusoidPredictionTest.java** JUnit test.
-The unit test will proof the validity of the algorithm's implementation. 
+The unit test will validate the implementation of the algorithm. 
 <br>
 <br>
 Example of usage:
