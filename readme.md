@@ -27,8 +27,8 @@ An IDE to import Java (Maven) projects and run JUnit tests.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Download the source code and run the **SinusoidPredictionTest.java** JUnit test.
-The unit test will validate the implementation of the algorithm. 
+Download the source code & run the **SinusoidPredictionTest.java** JUnit test.
+The unit test will validate the algorithm's implementation. 
 <br>
 <br>
 Example of usage:
