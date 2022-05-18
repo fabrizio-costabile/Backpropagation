@@ -4,7 +4,7 @@ Implementation of the Backpropagation algorithm to train Feedforward Neural Netw
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project implements the algorithm defined by the pseudocode found in "Artificial Intelligence: A Modern Approach (Third Edition)" by Stuart Russell and Peter Norvig (on page 734, Chapter 18).
+This project implements the Backpropagation algorithm defined in pseudocode in "Artificial Intelligence: A Modern Approach (Third Edition)", by Stuart Russell and Peter Norvig, on page 734 (Chapter 18).
 <br>
 
 ### Built With
