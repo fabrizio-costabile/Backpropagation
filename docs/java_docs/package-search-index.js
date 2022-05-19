@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.github.fabrizio_costabile.backpropagation.ann"},{"l":"com.github.fabrizio_costabile.backpropagation.ann.util"},{"l":"com.github.fabrizio_costabile.backpropagation.data"},{"l":"com.github.fabrizio_costabile.backpropagation.function"}];updateSearchResults();
