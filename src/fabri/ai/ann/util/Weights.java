@@ -3,7 +3,7 @@ package fabri.ai.ann.util;
 import java.util.Random;
 
 /**
- * 3D matrix of "connection" weights between neurons
+ * 3D matrix of connection weights between neurons
  *
  * @author Fabrizio Costabile
  */
@@ -84,9 +84,11 @@ public class Weights {
      * @param i the layer index
      * @param j the neuron in layer index <code>i</code>
      * @param k the neuron in layer index <code>i + 1</code>
+     * @param weight the connection weight between neuron index <code>j</code>, in layer index <code>i</code>,
+     * and neuron index <code>k</code>, in layer index <code>i + 1</code>
      */
-    public void setWeight(int i, int j, int k, double value) {
-        weights[i][j][k] = value;
+    public void setWeight(int i, int j, int k, double weight) {
+        weights[i][j][k] = weight;
     }
 
     /**
