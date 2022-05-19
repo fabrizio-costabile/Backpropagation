@@ -27,16 +27,13 @@ An IDE to import Java (Maven) projects and run JUnit tests.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Download the source code & run the <code>SinusoidPredictionTest</code> JUnit test (that validates the algorithm's implementation). 
-<br>
-<br>
 Example of usage:
 ```
 Backpropagation backpropagation = new Backpropagation(SIZES_OF_LAYERS, new SigmoidFunction());
 backpropagation.learn(dataSet, 1, 0);
 double[] predictions = backpropagation.predict(inputs);
 ```
-A comprehensive usage can be found in the <code>SinusoidPredictionTest</code> JUnit test.
+A comprehensive usage, also validating the algorithm's implementation, can be found in the <code>SinusoidPredictionTest</code> JUnit test.
 
 <!-- CONTRIBUTING -->
 ## Contributing
