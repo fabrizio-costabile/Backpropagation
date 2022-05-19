@@ -30,7 +30,7 @@ An IDE to import Java (Maven) projects and run JUnit tests.
 A comprehensive usage can be found in the <code>SinusoidPredictionTest</code> JUnit test, 
 that validates the algorithm's implementation by generating a "very good" **Mean Absolute Percentage Error** (MAPE < 1%).
 
-###Example of usage:
+### Example of usage:
 ```
 Backpropagation backpropagation = new Backpropagation(SIZES_OF_LAYERS, new SigmoidFunction());
 backpropagation.learn(dataSet, 1, 0);
