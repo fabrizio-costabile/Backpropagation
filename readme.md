@@ -16,7 +16,7 @@ This project implements the Backpropagation algorithm defined in pseudocode in "
 <!-- GETTING STARTED -->
 ## Getting Started
 
-UML class diagram of this project (except the unit test), located in the **/docs** folder.
+UML class diagram (located in **/docs** folder) showing the use of a **Template Pattern**.
 
 ![Backpropagation - UML Class Diagram](https://raw.githubusercontent.com/fabrizio-costabile/Backpropagation/main/docs/uml-class-diagram.png) 
 
@@ -27,8 +27,7 @@ An IDE to import Java (Maven) projects and run JUnit tests.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Download the source code & run the **SinusoidPredictionTest.java** JUnit test.
-The unit test will validate the algorithm's implementation. 
+Download the source code & run the <code>SinusoidPredictionTest</code> JUnit test (that validates the algorithm's implementation). 
 <br>
 <br>
 Example of usage:
@@ -37,7 +36,7 @@ Backpropagation backpropagation = new Backpropagation(SIZES_OF_LAYERS, new Sigmo
 backpropagation.learn(dataSet, 1, 0);
 double[] predictions = backpropagation.predict(inputs);
 ```
-A comprehensive usage can be found in the **SinusoidPredictionTest.java** JUnit test.
+A comprehensive usage can be found in the <code>SinusoidPredictionTest</code> JUnit test.
 
 <!-- CONTRIBUTING -->
 ## Contributing
