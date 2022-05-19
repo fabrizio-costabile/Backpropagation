@@ -27,7 +27,7 @@ An IDE to import Java (Maven) projects and run JUnit tests.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Example:
+Example of usage:
 ```
 Backpropagation backpropagation = new Backpropagation(SIZES_OF_LAYERS, new SigmoidFunction());
 backpropagation.learn(dataSet, 1, 0);
