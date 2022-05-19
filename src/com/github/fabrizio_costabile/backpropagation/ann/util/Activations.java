@@ -1,4 +1,4 @@
-package fabri.ai.ann.util;
+package com.github.fabrizio_costabile.backpropagation.ann.util;
 
 /**
  * Matrix of activation values of each neuron

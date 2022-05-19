@@ -1,4 +1,4 @@
-package fabri.ai.function;
+package com.github.fabrizio_costabile.backpropagation.function;
 
 /**
  * Linear Function

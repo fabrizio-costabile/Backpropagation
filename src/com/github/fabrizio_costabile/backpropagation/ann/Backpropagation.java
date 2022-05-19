@@ -1,10 +1,10 @@
-package fabri.ai.ann;
+package com.github.fabrizio_costabile.backpropagation.ann;
 
-import fabri.ai.ann.util.Activations;
-import fabri.ai.ann.util.Weights;
-import fabri.ai.data.Data;
-import fabri.ai.data.DataSet;
-import fabri.ai.function.ActivationFunction;
+import com.github.fabrizio_costabile.backpropagation.function.ActivationFunction;
+import com.github.fabrizio_costabile.backpropagation.ann.util.Activations;
+import com.github.fabrizio_costabile.backpropagation.ann.util.Weights;
+import com.github.fabrizio_costabile.backpropagation.data.Data;
+import com.github.fabrizio_costabile.backpropagation.data.DataSet;
 
 /**
  * <strong>Back-Propagation</strong> learning algorithm for <strong>Feed-Forward Neural Networks</strong>

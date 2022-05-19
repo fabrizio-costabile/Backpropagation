@@ -1,8 +1,8 @@
-package fabri.ai.ann;
+package com.github.fabrizio_costabile.backpropagation.ann;
 
-import fabri.ai.function.SigmoidFunction;
-import fabri.ai.data.Data;
-import fabri.ai.data.DataSet;
+import com.github.fabrizio_costabile.backpropagation.data.Data;
+import com.github.fabrizio_costabile.backpropagation.data.DataSet;
+import com.github.fabrizio_costabile.backpropagation.function.SigmoidFunction;
 import org.junit.Before;
 import org.junit.Test;
 

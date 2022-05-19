@@ -1,4 +1,4 @@
-package fabri.ai.data;
+package com.github.fabrizio_costabile.backpropagation.data;
 
 /**
  * Data for training and/or testing purposes, made of input values and corresponding output values.

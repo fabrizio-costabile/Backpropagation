@@ -1,4 +1,4 @@
-package fabri.ai.ann.util;
+package com.github.fabrizio_costabile.backpropagation.ann.util;
 
 import java.util.Random;
 

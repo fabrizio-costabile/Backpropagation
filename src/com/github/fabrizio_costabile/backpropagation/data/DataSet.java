@@ -1,9 +1,9 @@
-package fabri.ai.data;
+package com.github.fabrizio_costabile.backpropagation.data;
 
 import java.util.ArrayList;
 
 /**
- * Collection of {@link fabri.ai.data.Data} for training and/or testing purposes
+ * Collection of {@link Data} for training and/or testing purposes
  *
  * @author Fabrizio Costabile
  */
