@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf5fd765-eb8f-4b43-bde7-9af724ee9c13" name="Default Changelist" comment="" />
+    <list default="true" id="bf5fd765-eb8f-4b43-bde7-9af724ee9c13" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,28 +57,6 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="SinusoidPredictionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Backpropagation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fabri.ai.ann.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="fabri.ai.ann" />
-      <option name="MAIN_CLASS_NAME" value="fabri.ai.ann.SinusoidPredictionTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.SinusoidPredictionTest" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
@@ -106,10 +87,10 @@
       <screen x="0" y="25" width="1680" height="982" />
     </state>
     <state x="440" y="178" key="#Project_Structure/0.25.1680.982@0.25.1680.982" timestamp="1651314070880" />
-    <state x="304" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1651314050635">
+    <state x="304" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1652955394493">
       <screen x="0" y="25" width="1680" height="982" />
     </state>
-    <state x="304" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1680.982@0.25.1680.982" timestamp="1651314050635" />
+    <state x="304" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1680.982@0.25.1680.982" timestamp="1652955394493" />
     <state x="653" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1651304724880">
       <screen x="0" y="25" width="1680" height="982" />
     </state>
