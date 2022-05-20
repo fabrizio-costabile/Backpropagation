@@ -11,23 +11,22 @@ import static junit.framework.TestCase.assertTrue;
 /**
  * Testing the "Back-Propagation" learning algorithm on a "Feed-Forward Neural Network" by predicting sinusoid values.
  *
- * Setup: sinusoid values are calculated given a series of fixed-step inputs.
+ * Setup: sinusoid values are calculated given a series of fixed-step (0.01) inputs.
  *
- * The test consists in, given 4 consecutive sinusoid values, to predict the next sinusoid value.
- * It will result positive if the "Mean Absolute Percentage Error" (MAPE) is less then 1%.
+ * The test consists in, given 10 consecutive sinusoid values, to predict the next sinusoid value.
+ * It will result positive if the "Mean Absolute Error" (MAP) is less then 10%.
  *
  * @author Fabrizio Costabile
  */
 public class SinusoidPredictionTest {
 
-    private final int SINUSOID_POINTS = 1000;
+    private final int SINUSOID_POINTS = 10000000;
     private final int TRAINING_POINTS = SINUSOID_POINTS * 2 / 3;
+    private final double STEP = 0.01;
 
-    private final double STEP = Math.PI / 10;
-
-    private final int INPUT_LAYER_SIZE = 4;
+    private final int INPUT_LAYER_SIZE = 10;
     private final int OUTPUT_LAYER_SIZE = 1;
-    private final int[] SIZES_OF_LAYERS = {INPUT_LAYER_SIZE, 4, 4, OUTPUT_LAYER_SIZE};
+    private final int[] SIZES_OF_LAYERS = {INPUT_LAYER_SIZE, 5, OUTPUT_LAYER_SIZE};
 
     private Backpropagation backpropagation;
     private DataSet dataSet = buildDataSet();
@@ -37,9 +36,11 @@ public class SinusoidPredictionTest {
         for (int i = 0; i < TRAINING_POINTS; i++) {
             double[] inputs = new double[INPUT_LAYER_SIZE];
             for (int j = 0; j < inputs.length; j++) {
-                inputs[j] = Math.sin((i + j) * STEP);
+                double x = (i + j) * STEP;
+                inputs[j] = normalizedSinusoid(x);
             }
-            double[] outputs = {Math.sin((i + inputs.length) * STEP)};
+            double x = (i + inputs.length) * STEP;
+            double[] outputs = {normalizedSinusoid(x)};
             dataSet.addData(new Data(inputs, outputs));
         }
         return dataSet;
@@ -48,25 +49,31 @@ public class SinusoidPredictionTest {
     @Before
     public void learnFromTrainingData() {
         backpropagation = new Backpropagation(SIZES_OF_LAYERS, new SigmoidFunction());
-        backpropagation.learn(dataSet, 1, 0);
+        backpropagation.learn(dataSet, 0.8, 0);
     }
 
     @Test
-    public void meanAbsolutePercentageErrorLessThenOne() {
-        double mape = 0;
+    public void meanAbsoluteErrorTest() {
+        double mae = 0;
         int firstPoint = TRAINING_POINTS + 1;
         int testingPoints = SINUSOID_POINTS - TRAINING_POINTS;
         for (int i = firstPoint; i < firstPoint + testingPoints; i++) {
             double[] inputs = new double[INPUT_LAYER_SIZE];
             for (int j = 0; j < inputs.length; j++) {
-                inputs[j] = Math.sin((i + j) * STEP);
+                double x = (i + j) * STEP;
+                inputs[j] = normalizedSinusoid(x);
             }
-            double expected = Math.sin(inputs[3] + STEP);
+            double x = (i + inputs.length) * STEP;
+            double expected = normalizedSinusoid(x);
             double prediction = backpropagation.predict(inputs)[0];
-            mape += Math.abs((expected - prediction) / expected);
+            mae += Math.abs(expected - prediction);
         }
-        mape /= testingPoints;
-        assertTrue(mape < 1.0);
+        mae /= testingPoints;
+        assertTrue(mae < 0.1);
+    }
+
+    private double normalizedSinusoid(double x) {
+        return (Math.sin(x) + 1) / 2;
     }
 
 }
