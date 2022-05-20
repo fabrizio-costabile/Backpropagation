@@ -14,7 +14,7 @@ import static junit.framework.TestCase.assertTrue;
  * Setup: sinusoid values are calculated given a series of fixed-step (0.01) inputs.
  *
  * The test consists in, given 10 consecutive sinusoid values, to predict the next sinusoid value.
- * It will result positive if the "Mean Absolute Error" (MAP) is less then 10%.
+ * It will result positive if the "Mean Absolute Error" (MAE) is less then 10%.
  *
  * @author Fabrizio Costabile
  */
@@ -37,10 +37,10 @@ public class SinusoidPredictionTest {
             double[] inputs = new double[INPUT_LAYER_SIZE];
             for (int j = 0; j < inputs.length; j++) {
                 double x = (i + j) * STEP;
-                inputs[j] = normalizedSinusoid(x);
+                inputs[j] = normalizedSin(x);
             }
             double x = (i + inputs.length) * STEP;
-            double[] outputs = {normalizedSinusoid(x)};
+            double[] outputs = {normalizedSin(x)};
             dataSet.addData(new Data(inputs, outputs));
         }
         return dataSet;
@@ -61,18 +61,18 @@ public class SinusoidPredictionTest {
             double[] inputs = new double[INPUT_LAYER_SIZE];
             for (int j = 0; j < inputs.length; j++) {
                 double x = (i + j) * STEP;
-                inputs[j] = normalizedSinusoid(x);
+                inputs[j] = normalizedSin(x);
             }
             double x = (i + inputs.length) * STEP;
-            double expected = normalizedSinusoid(x);
-            double prediction = backpropagation.predict(inputs)[0];
-            mae += Math.abs(expected - prediction);
+            double expected = normalizedSin(x);
+            double predicted = backpropagation.predict(inputs)[0];
+            mae += Math.abs(expected - predicted);
         }
         mae /= testingPoints;
         assertTrue(mae < 0.1);
     }
 
-    private double normalizedSinusoid(double x) {
+    private double normalizedSin(double x) {
         return (Math.sin(x) + 1) / 2;
     }
 
