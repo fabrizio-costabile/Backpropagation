@@ -8,9 +8,42 @@
   <component name="ChangeListManager">
     <list default="true" id="bf5fd765-eb8f-4b43-bde7-9af724ee9c13" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/github/fabrizio_costabile/backpropagation/ann/SinusoidPredictionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/github/fabrizio_costabile/backpropagation/ann/SinusoidPredictionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/github/fabrizio_costabile/backpropagation/ann/SinusoidPredictionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/github/fabrizio_costabile/backpropagation/ann/SinusoidPredictionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/java_docs/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java_docs/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/java_docs/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java_docs/allpackages-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/java_docs/com/github/fabrizio_costabile/backpropagation/ann/Backpropagation.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java_docs/com/github/fabrizio_costabile/backpropagation/ann/Backpropagation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/java_docs/com/github/fabrizio_costabile/backpropagation/ann/SinusoidPredictionTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java_docs/com/github/fabrizio_costabile/backpropagation/ann/SinusoidPredictionTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/java_docs/com/github/fabrizio_costabile/backpropagation/ann/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java_docs/com/github/fabrizio_costabile/backpropagation/ann/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/java_docs/com/github/fabrizio_costabile/backpropagation/ann/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java_docs/com/github/fabrizio_costabile/backpropagation/ann/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/java_docs/com/github/fabrizio_costabile/backpropagation/ann/util/Activations.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java_docs/com/github/fabrizio_costabile/backpropagation/ann/util/Activations.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/java_docs/com/github/fabrizio_costabile/backpropagation/ann/util/Weights.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java_docs/com/github/fabrizio_costabile/backpropagation/ann/util/Weights.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/java_docs/com/github/fabrizio_costabile/backpropagation/ann/util/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java_docs/com/github/fabrizio_costabile/backpropagation/ann/util/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/java_docs/com/github/fabrizio_costabile/backpropagation/ann/util/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java_docs/com/github/fabrizio_costabile/backpropagation/ann/util/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/java_docs/com/github/fabrizio_costabile/backpropagation/data/Data.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java_docs/com/github/fabrizio_costabile/backpropagation/data/Data.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/java_docs/com/github/fabrizio_costabile/backpropagation/data/DataSet.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java_docs/com/github/fabrizio_costabile/backpropagation/data/DataSet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/java_docs/com/github/fabrizio_costabile/backpropagation/data/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java_docs/com/github/fabrizio_costabile/backpropagation/data/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/java_docs/com/github/fabrizio_costabile/backpropagation/data/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java_docs/com/github/fabrizio_costabile/backpropagation/data/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/java_docs/com/github/fabrizio_costabile/backpropagation/function/ActivationFunction.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java_docs/com/github/fabrizio_costabile/backpropagation/function/ActivationFunction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/java_docs/com/github/fabrizio_costabile/backpropagation/function/LinearFunction.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java_docs/com/github/fabrizio_costabile/backpropagation/function/LinearFunction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/java_docs/com/github/fabrizio_costabile/backpropagation/function/SigmoidFunction.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java_docs/com/github/fabrizio_costabile/backpropagation/function/SigmoidFunction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/java_docs/com/github/fabrizio_costabile/backpropagation/function/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java_docs/com/github/fabrizio_costabile/backpropagation/function/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/java_docs/com/github/fabrizio_costabile/backpropagation/function/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java_docs/com/github/fabrizio_costabile/backpropagation/function/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/java_docs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java_docs/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/java_docs/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java_docs/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/java_docs/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java_docs/index-files/index-10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/java_docs/index-files/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java_docs/index-files/index-11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/java_docs/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java_docs/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/java_docs/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java_docs/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/java_docs/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java_docs/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/java_docs/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java_docs/index-files/index-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/java_docs/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java_docs/index-files/index-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/java_docs/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java_docs/index-files/index-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/java_docs/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java_docs/index-files/index-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/java_docs/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java_docs/index-files/index-9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/java_docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java_docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/java_docs/member-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java_docs/member-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/java_docs/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java_docs/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/java_docs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java_docs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/java_docs/serialized-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java_docs/serialized-form.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,6 +148,17 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
@@ -151,26 +195,26 @@
       <screen x="0" y="25" width="1680" height="982" />
     </state>
     <state x="434" y="25" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.25.1680.982@0.25.1680.982" timestamp="1652953856092" />
-    <state x="585" y="243" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1652964181311">
+    <state x="585" y="243" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1653289942230">
       <screen x="0" y="25" width="1680" height="982" />
     </state>
-    <state x="585" y="243" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.25.1680.982@0.25.1680.982" timestamp="1652964181311" />
-    <state width="1638" height="296" key="GridCell.Tab.0.bottom" timestamp="1653042847433">
+    <state x="585" y="243" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.25.1680.982@0.25.1680.982" timestamp="1653289942230" />
+    <state width="1638" height="259" key="GridCell.Tab.0.bottom" timestamp="1653289959235">
       <screen x="0" y="25" width="1680" height="982" />
     </state>
-    <state width="1638" height="296" key="GridCell.Tab.0.bottom/0.25.1680.982@0.25.1680.982" timestamp="1653042847433" />
-    <state width="1638" height="296" key="GridCell.Tab.0.center" timestamp="1653042847433">
+    <state width="1638" height="259" key="GridCell.Tab.0.bottom/0.25.1680.982@0.25.1680.982" timestamp="1653289959235" />
+    <state width="1638" height="259" key="GridCell.Tab.0.center" timestamp="1653289959233">
       <screen x="0" y="25" width="1680" height="982" />
     </state>
-    <state width="1638" height="296" key="GridCell.Tab.0.center/0.25.1680.982@0.25.1680.982" timestamp="1653042847433" />
-    <state width="1638" height="296" key="GridCell.Tab.0.left" timestamp="1653042847433">
+    <state width="1638" height="259" key="GridCell.Tab.0.center/0.25.1680.982@0.25.1680.982" timestamp="1653289959233" />
+    <state width="1638" height="259" key="GridCell.Tab.0.left" timestamp="1653289959233">
       <screen x="0" y="25" width="1680" height="982" />
     </state>
-    <state width="1638" height="296" key="GridCell.Tab.0.left/0.25.1680.982@0.25.1680.982" timestamp="1653042847433" />
-    <state width="1638" height="296" key="GridCell.Tab.0.right" timestamp="1653042847433">
+    <state width="1638" height="259" key="GridCell.Tab.0.left/0.25.1680.982@0.25.1680.982" timestamp="1653289959233" />
+    <state width="1638" height="259" key="GridCell.Tab.0.right" timestamp="1653289959234">
       <screen x="0" y="25" width="1680" height="982" />
     </state>
-    <state width="1638" height="296" key="GridCell.Tab.0.right/0.25.1680.982@0.25.1680.982" timestamp="1653042847433" />
+    <state width="1638" height="259" key="GridCell.Tab.0.right/0.25.1680.982@0.25.1680.982" timestamp="1653289959234" />
     <state width="1638" height="296" key="GridCell.Tab.1.bottom" timestamp="1653042847434">
       <screen x="0" y="25" width="1680" height="982" />
     </state>
@@ -199,10 +243,10 @@
       <screen x="0" y="25" width="1680" height="982" />
     </state>
     <state x="100" y="125" width="1480" height="782" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.25.1680.982@0.25.1680.982" timestamp="1651304816834" />
-    <state x="517" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1653044263433">
+    <state x="517" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1653289466765">
       <screen x="0" y="25" width="1680" height="982" />
     </state>
-    <state x="517" y="345" key="com.intellij.ide.util.TipDialog/0.25.1680.982@0.25.1680.982" timestamp="1653044263433" />
+    <state x="517" y="345" key="com.intellij.ide.util.TipDialog/0.25.1680.982@0.25.1680.982" timestamp="1653289466765" />
     <state x="634" y="209" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1651391500254">
       <screen x="0" y="25" width="1680" height="982" />
     </state>
