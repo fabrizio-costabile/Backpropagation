@@ -14,7 +14,7 @@ import static junit.framework.TestCase.assertTrue;
  * Setup: sinusoid values are calculated given a series of fixed-step (0.01) inputs.
  *
  * The test consists in, given 10 consecutive sinusoid values, to predict the next sinusoid value.
- * It will result positive if the "Mean Absolute Error" (MAE) is less then 10%.
+ * It will result positive if the "Mean Absolute Error" (MAE) is less then 5%.
  *
  * @author Fabrizio Costabile
  */
@@ -49,7 +49,7 @@ public class SinusoidPredictionTest {
     @Before
     public void learnFromTrainingData() {
         backpropagation = new Backpropagation(SIZES_OF_LAYERS, new SigmoidFunction());
-        backpropagation.learn(dataSet, 0.8, 0);
+        backpropagation.learn(dataSet, 0.85, 0);
     }
 
     @Test
@@ -69,7 +69,7 @@ public class SinusoidPredictionTest {
             mae += Math.abs(expected - predicted);
         }
         mae /= testingPoints;
-        assertTrue(mae < 0.1);
+        assertTrue(mae < 0.05);
     }
 
     private double normalizedSin(double x) {

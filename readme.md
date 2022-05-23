@@ -28,7 +28,7 @@ An IDE to import Java (Maven) projects and run JUnit tests.
 ## Usage
 
 A comprehensive usage can be found in the <code>SinusoidPredictionTest</code> JUnit test, 
-that validates the algorithm's implementation by generating a "good" **Mean Absolute Error** (MAE < 10%).
+that validates the algorithm's implementation by generating a "good" **Mean Absolute Error** (MAE < 5%).
 
 ### Example of usage:
 ```
