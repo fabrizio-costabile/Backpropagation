@@ -1,5 +1,5 @@
 # Backpropagation
-Implementation of the Backpropagation algorithm to train Feedforward Neural Networks.
+Backpropagation algorithm for training Feedforward Neural Networks.
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
