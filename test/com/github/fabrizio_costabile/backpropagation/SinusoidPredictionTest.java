@@ -1,6 +1,5 @@
 package com.github.fabrizio_costabile.backpropagation;
 
-import com.github.fabrizio_costabile.backpropagation.Backpropagation;
 import com.github.fabrizio_costabile.backpropagation.data.Data;
 import com.github.fabrizio_costabile.backpropagation.data.DataSet;
 import com.github.fabrizio_costabile.backpropagation.function.SigmoidFunction;
