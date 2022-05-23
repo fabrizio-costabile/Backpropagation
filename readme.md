@@ -16,7 +16,7 @@ This project implements the Backpropagation algorithm defined in pseudocode in "
 <!-- GETTING STARTED -->
 ## Getting Started
 
-UML class diagram (located in **/docs** folder) showing a **Template Pattern** that allows customisation of the Neuron's Activation Function.
+UML class diagram (located in **/docs** folder) showing a **Template Pattern** that allows customisation of the Neuron's **Activation Function**.
 
 ![Backpropagation - UML Class Diagram](https://raw.githubusercontent.com/fabrizio-costabile/Backpropagation/main/docs/uml-class-diagram.png) 
 
