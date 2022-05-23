@@ -20,7 +20,7 @@ import static junit.framework.TestCase.assertTrue;
  */
 public class SinusoidPredictionTest {
 
-    private final int SINUSOID_POINTS = 10000000;
+    private final int SINUSOID_POINTS = 100000;
     private final int TRAINING_POINTS = SINUSOID_POINTS * 2 / 3;
     private final double STEP = 0.01;
 
