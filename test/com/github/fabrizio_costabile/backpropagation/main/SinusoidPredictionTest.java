@@ -1,4 +1,4 @@
-package com.github.fabrizio_costabile.backpropagation.ann;
+package com.github.fabrizio_costabile.backpropagation.main;
 
 import com.github.fabrizio_costabile.backpropagation.data.Data;
 import com.github.fabrizio_costabile.backpropagation.data.DataSet;
