@@ -1,8 +1,8 @@
-package com.github.fabrizio_costabile.backpropagation.main;
+package com.github.fabrizio_costabile.backpropagation;
 
 import com.github.fabrizio_costabile.backpropagation.function.ActivationFunction;
-import com.github.fabrizio_costabile.backpropagation.main.util.Activations;
-import com.github.fabrizio_costabile.backpropagation.main.util.Weights;
+import com.github.fabrizio_costabile.backpropagation.network.Activations;
+import com.github.fabrizio_costabile.backpropagation.network.Weights;
 import com.github.fabrizio_costabile.backpropagation.data.Data;
 import com.github.fabrizio_costabile.backpropagation.data.DataSet;
 

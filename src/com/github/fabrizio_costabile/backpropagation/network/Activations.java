@@ -1,4 +1,4 @@
-package com.github.fabrizio_costabile.backpropagation.main.util;
+package com.github.fabrizio_costabile.backpropagation.network;
 
 /**
  * Matrix of activation values of each neuron
