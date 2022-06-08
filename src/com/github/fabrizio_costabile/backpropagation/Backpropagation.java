@@ -15,7 +15,6 @@ public class Backpropagation {
 
     private Activations activations;
     private Weights weights;
-
     private ActivationFunction activationFunction;
 
     /**
@@ -58,7 +57,7 @@ public class Backpropagation {
     }
 
     private void propagateInputsForward(double[] inputs) {
-        int outputLayerSize = weights.getSize(weights.getSize() - 1);
+        int outputLayerSize = activations.getSize(activations.getSize() - 1);
         propagateInputsForward(new Data(inputs, new double[outputLayerSize]));
     }
 
@@ -126,7 +125,7 @@ public class Backpropagation {
 
     /* Update every weight in network using deltas */
     private void updateWeights(double[][] deltas, double learningRate) {
-        for (int i = 0; i < weights.getSize()- 1; i++) {
+        for (int i = 0; i < weights.getSize() - 1; i++) {
             for (int j = 0; j < weights.getSize(i); j++) {
                 for (int k = 0; k < weights.getSize(i, j); k++) {
                     double increment = learningRate * activations.getNeuronValue(i, j) * deltas[i + 1][k];
