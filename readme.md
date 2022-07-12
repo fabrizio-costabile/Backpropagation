@@ -33,7 +33,7 @@ that validates the algorithm's implementation by generating a "good" **Mean Abso
 ### Example of usage:
 ```
 Backpropagation backpropagation = new Backpropagation(SIZES_OF_LAYERS, new SigmoidFunction());
-backpropagation.learn(dataSet, 1, 0);
+backpropagation.learn(dataSet, 0.85, 0);
 double[] predictions = backpropagation.predict(inputs);
 ```
 
